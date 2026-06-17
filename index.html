@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chinnu | Creative Developer & Designer</title>
+  <meta name="description" content="Personal portfolio of Chinnu — a creative developer and designer specializing in modern web experiences, UI/UX design, and full-stack development." />
+  <meta name="keywords" content="portfolio, developer, designer, web development, frontend, full-stack" />
+  <meta name="author" content="Chinnu" />
+  <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+
+  <!-- Background Effects -->
+  <div class="bg-grid"></div>
+  <div class="bg-blob bg-blob--1"></div>
+  <div class="bg-blob bg-blob--2"></div>
+  <div class="bg-blob bg-blob--3"></div>
+
+  <!-- Custom Cursor -->
+  <div class="cursor-follower" id="cursorFollower"></div>
+
+  <!-- Toast Notification -->
+  <div class="toast" id="toast">✅ Message sent successfully!</div>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav class="navbar" id="navbar">
+    <div class="navbar__inner">
+      <a href="#hero" class="navbar__logo">Chinnu.</a>
+      <div class="navbar__links" id="navLinks">
+        <a href="#about" class="navbar__link" data-section="about">About</a>
+        <a href="#skills" class="navbar__link" data-section="skills">Skills</a>
+        <a href="#projects" class="navbar__link" data-section="projects">Projects</a>
+        <a href="#resume" class="navbar__link" data-section="resume">Resume</a>
+        <a href="#contact" class="navbar__link" data-section="contact">Contact</a>
+        <a href="#contact" class="navbar__cta">Let's Talk</a>
+      </div>
+      <button class="navbar__hamburger" id="hamburger" aria-label="Toggle navigation menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="hero">
+    <div class="hero__inner">
+      <div class="hero__content">
+        <div class="hero__badge">
+          <span class="dot"></span>
+          Available for opportunities
+        </div>
+        <h1 class="hero__title">
+          Hi, I'm <span class="gradient-text">Chinnu</span><br />
+          Creative Developer
+        </h1>
+        <p class="hero__subtitle">
+          I craft beautiful, performant digital experiences that live at the intersection of design and technology. Passionate about clean code and pixel-perfect interfaces.
+        </p>
+        <div class="hero__actions">
+          <a href="#projects" class="btn btn--primary">
+            <span>View My Work</span>
+            <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+          <a href="#contact" class="btn btn--outline">
+            <span>Get In Touch</span>
+          </a>
+        </div>
+        <div class="hero__stats">
+          <div class="hero__stat">
+            <div class="hero__stat-value" data-count="25">0</div>
+            <div class="hero__stat-label">Projects</div>
+          </div>
+          <div class="hero__stat">
+            <div class="hero__stat-value" data-count="3">0</div>
+            <div class="hero__stat-label">Years Exp.</div>
+          </div>
+          <div class="hero__stat">
+            <div class="hero__stat-value" data-count="15">0</div>
+            <div class="hero__stat-label">Happy Clients</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero__visual">
+        <div class="hero__image-wrapper">
+          <img class="hero__image" src="profile.png" alt="Chinnu — Developer portrait" />
+          <div class="hero__orbit">
+            <div class="hero__orbit-dot hero__orbit-dot--1"></div>
+            <div class="hero__orbit-dot hero__orbit-dot--2"></div>
+            <div class="hero__orbit-dot hero__orbit-dot--3"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section class="section" id="about">
+    <div class="section__container">
+      <div class="reveal">
+        <span class="section__label">About Me</span>
+        <h2 class="section__title">Turning Ideas Into<br />Digital Reality</h2>
+        <p class="section__subtitle">A passionate developer who loves building things that live on the internet.</p>
+      </div>
+
+      <div class="about__grid">
+        <div class="about__image-container reveal reveal-delay-1">
+          <div class="about__image-card">
+            <div class="code-block">
+              <span class="keyword">const</span> <span class="property">developer</span> <span class="operator">=</span> {<br />
+              &nbsp;&nbsp;<span class="property">name</span>: <span class="string">"Chinnu"</span>,<br />
+              &nbsp;&nbsp;<span class="property">role</span>: <span class="string">"Full-Stack Dev"</span>,<br />
+              &nbsp;&nbsp;<span class="property">location</span>: <span class="string">"India"</span>,<br />
+              &nbsp;&nbsp;<span class="property">passion</span>: <span class="string">"Building UIs"</span>,<br />
+              &nbsp;&nbsp;<span class="property">coffee</span>: <span class="keyword">true</span>,<br />
+              &nbsp;&nbsp;<span class="comment">// Always learning 🚀</span><br />
+              };
+            </div>
+          </div>
+        </div>
+
+        <div class="about__content reveal reveal-delay-2">
+          <p class="about__text">
+            I'm a creative developer based in India, passionate about crafting engaging and accessible web experiences. With a strong foundation in both front-end and back-end technologies, I bring ideas to life through clean, efficient code and intuitive design.
+          </p>
+          <p class="about__text">
+            When I'm not coding, you'll find me exploring new technologies, contributing to open source, or sketching UI concepts. I believe great software is a blend of technical excellence and thoughtful design.
+          </p>
+
+          <div class="about__highlights">
+            <div class="about__highlight">
+              <span class="about__highlight-icon">🎨</span>
+              <span>UI/UX Design</span>
+            </div>
+            <div class="about__highlight">
+              <span class="about__highlight-icon">⚡</span>
+              <span>Performance</span>
+            </div>
+            <div class="about__highlight">
+              <span class="about__highlight-icon">📱</span>
+              <span>Responsive</span>
+            </div>
+            <div class="about__highlight">
+              <span class="about__highlight-icon">♿</span>
+              <span>Accessible</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SKILLS ===== -->
+  <section class="section" id="skills">
+    <div class="section__container">
+      <div class="reveal">
+        <span class="section__label">Skills</span>
+        <h2 class="section__title">My Tech Arsenal</h2>
+        <p class="section__subtitle">Technologies and tools I use to bring products to life.</p>
+      </div>
+
+      <div class="skills__grid">
+        <!-- Frontend -->
+        <div class="skill-card reveal reveal-delay-1">
+          <div class="skill-card__header">
+            <div class="skill-card__icon skill-card__icon--purple">🎨</div>
+            <h3 class="skill-card__title">Frontend</h3>
+          </div>
+          <div class="skill-card__items">
+            <span class="skill-tag">HTML5</span>
+            <span class="skill-tag">CSS3</span>
+            <span class="skill-tag">JavaScript</span>
+            <span class="skill-tag">TypeScript</span>
+            <span class="skill-tag">React</span>
+            <span class="skill-tag">Next.js</span>
+            <span class="skill-tag">Tailwind CSS</span>
+            <span class="skill-tag">GSAP</span>
+          </div>
+        </div>
+
+        <!-- Backend -->
+        <div class="skill-card reveal reveal-delay-2">
+          <div class="skill-card__header">
+            <div class="skill-card__icon skill-card__icon--cyan">⚙️</div>
+            <h3 class="skill-card__title">Backend</h3>
+          </div>
+          <div class="skill-card__items">
+            <span class="skill-tag">Node.js</span>
+            <span class="skill-tag">Express</span>
+            <span class="skill-tag">Python</span>
+            <span class="skill-tag">Django</span>
+            <span class="skill-tag">REST APIs</span>
+            <span class="skill-tag">GraphQL</span>
+            <span class="skill-tag">PostgreSQL</span>
+            <span class="skill-tag">MongoDB</span>
+          </div>
+        </div>
+
+        <!-- Tools & DevOps -->
+        <div class="skill-card reveal reveal-delay-3">
+          <div class="skill-card__header">
+            <div class="skill-card__icon skill-card__icon--pink">🛠️</div>
+            <h3 class="skill-card__title">Tools & DevOps</h3>
+          </div>
+          <div class="skill-card__items">
+            <span class="skill-tag">Git</span>
+            <span class="skill-tag">GitHub</span>
+            <span class="skill-tag">Docker</span>
+            <span class="skill-tag">VS Code</span>
+            <span class="skill-tag">Figma</span>
+            <span class="skill-tag">Vercel</span>
+            <span class="skill-tag">Netlify</span>
+            <span class="skill-tag">Linux</span>
+          </div>
+        </div>
+
+        <!-- Soft Skills -->
+        <div class="skill-card reveal reveal-delay-4">
+          <div class="skill-card__header">
+            <div class="skill-card__icon skill-card__icon--emerald">🧠</div>
+            <h3 class="skill-card__title">Soft Skills</h3>
+          </div>
+          <div class="skill-card__items">
+            <span class="skill-tag">Problem Solving</span>
+            <span class="skill-tag">Team Player</span>
+            <span class="skill-tag">Communication</span>
+            <span class="skill-tag">Agile/Scrum</span>
+            <span class="skill-tag">Leadership</span>
+            <span class="skill-tag">Time Management</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROJECTS ===== -->
+  <section class="section" id="projects">
+    <div class="section__container">
+      <div class="reveal">
+        <span class="section__label">Projects</span>
+        <h2 class="section__title">Featured Work</h2>
+        <p class="section__subtitle">A selection of projects that showcase my skills and passion.</p>
+      </div>
+
+      <div class="projects__grid">
+        <!-- Project 1 -->
+        <div class="project-card reveal reveal-delay-1">
+          <div class="project-card__image">
+            <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=600&h=400&fit=crop" alt="E-commerce dashboard project screenshot" />
+            <div class="project-card__overlay">
+              <div class="project-card__links">
+                <a href="#" class="project-card__link">🔗 Live Demo</a>
+                <a href="#" class="project-card__link">📂 GitHub</a>
+              </div>
+            </div>
+          </div>
+          <div class="project-card__body">
+            <span class="project-card__category">Web Application</span>
+            <h3 class="project-card__title">E-Commerce Dashboard</h3>
+            <p class="project-card__description">A full-featured analytics dashboard with real-time data visualization, user management, and sales tracking.</p>
+            <div class="project-card__tech">
+              <span class="tech-tag">React</span>
+              <span class="tech-tag">Node.js</span>
+              <span class="tech-tag">MongoDB</span>
+              <span class="tech-tag">Chart.js</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-card reveal reveal-delay-2">
+          <div class="project-card__image">
+            <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?w=600&h=400&fit=crop" alt="Weather app project screenshot" />
+            <div class="project-card__overlay">
+              <div class="project-card__links">
+                <a href="#" class="project-card__link">🔗 Live Demo</a>
+                <a href="#" class="project-card__link">📂 GitHub</a>
+              </div>
+            </div>
+          </div>
+          <div class="project-card__body">
+            <span class="project-card__category">Mobile App</span>
+            <h3 class="project-card__title">Weather Forecast App</h3>
+            <p class="project-card__description">Beautiful weather application with animated backgrounds, 7-day forecasts, and location-based weather data.</p>
+            <div class="project-card__tech">
+              <span class="tech-tag">React Native</span>
+              <span class="tech-tag">OpenWeather API</span>
+              <span class="tech-tag">Lottie</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="project-card reveal reveal-delay-3">
+          <div class="project-card__image">
+            <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop" alt="Portfolio generator project screenshot" />
+            <div class="project-card__overlay">
+              <div class="project-card__links">
+                <a href="#" class="project-card__link">🔗 Live Demo</a>
+                <a href="#" class="project-card__link">📂 GitHub</a>
+              </div>
+            </div>
+          </div>
+          <div class="project-card__body">
+            <span class="project-card__category">Open Source</span>
+            <h3 class="project-card__title">Portfolio Generator</h3>
+            <p class="project-card__description">An open-source tool that lets developers generate stunning portfolio sites from a simple JSON configuration file.</p>
+            <div class="project-card__tech">
+              <span class="tech-tag">Next.js</span>
+              <span class="tech-tag">TypeScript</span>
+              <span class="tech-tag">MDX</span>
+              <span class="tech-tag">Vercel</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== RESUME ===== -->
+  <section class="section" id="resume">
+    <div class="section__container">
+      <div class="reveal">
+        <span class="section__label">Resume</span>
+        <h2 class="section__title">Experience & Education</h2>
+        <p class="section__subtitle">My professional journey and academic background.</p>
+      </div>
+
+      <div class="resume__layout">
+        <!-- Experience -->
+        <div class="reveal reveal-delay-1">
+          <h3 class="resume__column-title">
+            <span class="icon">💼</span> Experience
+          </h3>
+          <div class="timeline">
+            <div class="timeline__item">
+              <div class="timeline__dot"></div>
+              <span class="timeline__date">2024 — Present</span>
+              <h4 class="timeline__title">Frontend Developer</h4>
+              <p class="timeline__company">Tech Startup Inc.</p>
+              <p class="timeline__description">Building responsive web applications using React and Next.js. Collaborating with designers to implement pixel-perfect UIs and improve performance metrics.</p>
+            </div>
+            <div class="timeline__item">
+              <div class="timeline__dot"></div>
+              <span class="timeline__date">2023 — 2024</span>
+              <h4 class="timeline__title">Web Development Intern</h4>
+              <p class="timeline__company">Digital Agency Co.</p>
+              <p class="timeline__description">Developed client websites, optimized SEO, and maintained existing projects. Gained hands-on experience with modern JavaScript frameworks.</p>
+            </div>
+            <div class="timeline__item">
+              <div class="timeline__dot"></div>
+              <span class="timeline__date">2022 — 2023</span>
+              <h4 class="timeline__title">Freelance Developer</h4>
+              <p class="timeline__company">Self-Employed</p>
+              <p class="timeline__description">Designed and developed custom websites for small businesses. Managed full project lifecycle from requirements to deployment.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Education -->
+        <div class="reveal reveal-delay-2">
+          <h3 class="resume__column-title">
+            <span class="icon">🎓</span> Education
+          </h3>
+          <div class="timeline">
+            <div class="timeline__item">
+              <div class="timeline__dot"></div>
+              <span class="timeline__date">2020 — 2024</span>
+              <h4 class="timeline__title">B.Tech in Computer Science</h4>
+              <p class="timeline__company">University of Technology</p>
+              <p class="timeline__description">Focused on software engineering, data structures, algorithms, and web technologies. Graduated with distinction.</p>
+            </div>
+            <div class="timeline__item">
+              <div class="timeline__dot"></div>
+              <span class="timeline__date">2018 — 2020</span>
+              <h4 class="timeline__title">Higher Secondary (XII)</h4>
+              <p class="timeline__company">Central Board of Education</p>
+              <p class="timeline__description">Science stream with Computer Science. Built foundational knowledge in programming and mathematics.</p>
+            </div>
+            <div class="timeline__item">
+              <div class="timeline__dot"></div>
+              <span class="timeline__date">2018</span>
+              <h4 class="timeline__title">Secondary School (X)</h4>
+              <p class="timeline__company">Central Board of Education</p>
+              <p class="timeline__description">Completed with excellent academic performance. Developed early interest in technology and coding.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="resume__download reveal">
+        <a href="#" class="btn btn--primary">
+          <span>📄 Download Resume</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section class="section" id="contact">
+    <div class="section__container">
+      <div class="reveal">
+        <span class="section__label">Contact</span>
+        <h2 class="section__title">Let's Work Together</h2>
+        <p class="section__subtitle">Got a project in mind? Let's chat and bring your ideas to life.</p>
+      </div>
+
+      <div class="contact__grid">
+        <div class="contact__info reveal reveal-delay-1">
+          <p class="contact__info-text">
+            I'm always open to discussing new projects, creative ideas, or opportunities to be part of something amazing. Feel free to reach out!
+          </p>
+
+          <div class="contact__cards">
+            <div class="contact-card">
+              <div class="contact-card__icon">📧</div>
+              <div>
+                <div class="contact-card__label">Email</div>
+                <div class="contact-card__value">chinnu@example.com</div>
+              </div>
+            </div>
+            <div class="contact-card">
+              <div class="contact-card__icon">📍</div>
+              <div>
+                <div class="contact-card__label">Location</div>
+                <div class="contact-card__value">India</div>
+              </div>
+            </div>
+            <div class="contact-card">
+              <div class="contact-card__icon">📞</div>
+              <div>
+                <div class="contact-card__label">Phone</div>
+                <div class="contact-card__value">+91 XXXXX XXXXX</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact__socials">
+            <a href="#" class="social-link" aria-label="GitHub profile">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+            </a>
+            <a href="#" class="social-link" aria-label="LinkedIn profile">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+            </a>
+            <a href="#" class="social-link" aria-label="Twitter profile">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+            </a>
+            <a href="#" class="social-link" aria-label="Instagram profile">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="reveal reveal-delay-2">
+          <form class="contact__form" id="contactForm">
+            <div class="form__group">
+              <label class="form__label" for="name">Full Name</label>
+              <input type="text" class="form__input" id="name" placeholder="John Doe" required />
+            </div>
+            <div class="form__group">
+              <label class="form__label" for="email">Email Address</label>
+              <input type="email" class="form__input" id="email" placeholder="john@example.com" required />
+            </div>
+            <div class="form__group">
+              <label class="form__label" for="subject">Subject</label>
+              <input type="text" class="form__input" id="subject" placeholder="Project Inquiry" />
+            </div>
+            <div class="form__group">
+              <label class="form__label" for="message">Message</label>
+              <textarea class="form__textarea" id="message" placeholder="Tell me about your project..." required></textarea>
+            </div>
+            <button type="submit" class="form__submit" id="submitBtn">
+              Send Message ✉️
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="footer__inner">
+      <p class="footer__text">
+        © 2026 Chinnu. Crafted with <span class="heart">♥</span> and lots of ☕
+      </p>
+      <div class="footer__links">
+        <a href="#about" class="footer__link">About</a>
+        <a href="#projects" class="footer__link">Projects</a>
+        <a href="#contact" class="footer__link">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="index.js"></script>
+</body>
+</html>
