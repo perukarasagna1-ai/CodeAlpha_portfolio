@@ -785,6 +785,10 @@ ul { list-style: none; }
   background: linear-gradient(135deg, rgba(6, 182, 212, 0.2) 0%, rgba(16, 185, 129, 0.15) 50%, rgba(139, 92, 246, 0.1) 100%);
 }
 
+.project-card__icon-header--emerald {
+  background: linear-gradient(135deg, rgba(16, 185, 129, 0.2) 0%, rgba(6, 182, 212, 0.15) 50%, rgba(245, 158, 11, 0.1) 100%);
+}
+
 .project-card__icon-emoji {
   font-size: 4.5rem;
   filter: drop-shadow(0 4px 20px rgba(139, 92, 246, 0.3));
