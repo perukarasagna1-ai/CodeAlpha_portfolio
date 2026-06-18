@@ -744,6 +744,8 @@ ul { list-style: none; }
   overflow: hidden;
   transition: var(--transition-smooth);
   position: relative;
+  display: block;
+  cursor: pointer;
 }
 
 .project-card:hover {
