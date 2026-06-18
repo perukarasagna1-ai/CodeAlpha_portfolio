@@ -769,6 +769,45 @@ ul { list-style: none; }
   transform: scale(1.05);
 }
 
+/* Icon-based project headers (no image) */
+.project-card__icon-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.project-card__icon-header--purple {
+  background: linear-gradient(135deg, rgba(139, 92, 246, 0.2) 0%, rgba(99, 102, 241, 0.15) 50%, rgba(6, 182, 212, 0.1) 100%);
+}
+
+.project-card__icon-header--cyan {
+  background: linear-gradient(135deg, rgba(6, 182, 212, 0.2) 0%, rgba(16, 185, 129, 0.15) 50%, rgba(139, 92, 246, 0.1) 100%);
+}
+
+.project-card__icon-emoji {
+  font-size: 4.5rem;
+  filter: drop-shadow(0 4px 20px rgba(139, 92, 246, 0.3));
+  transition: var(--transition-smooth);
+  z-index: 2;
+}
+
+.project-card:hover .project-card__icon-emoji {
+  transform: scale(1.15) rotate(-5deg);
+  filter: drop-shadow(0 8px 30px rgba(139, 92, 246, 0.5));
+}
+
+.project-card__icon-header .project-card__overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: auto;
+  padding: 0.75rem 1.25rem;
+  display: flex;
+  justify-content: flex-end;
+}
+
 .project-card__overlay {
   position: absolute;
   inset: 0;
